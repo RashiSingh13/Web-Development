@@ -1,0 +1,35 @@
+
+        /* Style for card container */
+        .card {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: box-shadow 0.3s;
+        }
+        /* Hover effect */
+        .card:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        /* Style for card title */
+        .card-title {
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+            border-radius: 8px 8px 0 0;
+        }
+        /* Style for card body */
+        .card-body {
+            padding: 20px;
+        }
+        /* Style for purchase button */
+        .btn-purchase {
+            width: 100%;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+        /* Override button hover */
+        .btn-purchase:hover {
+            background-color: #0056b3;
+        }
+   
